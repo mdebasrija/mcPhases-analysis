@@ -1,0 +1,7 @@
+data/raw/
+data/processed/
+.Rhistory
+.RData
+.Rproj.user/
+_freeze/
+.quarto/
