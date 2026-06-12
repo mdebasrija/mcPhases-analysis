@@ -27,3 +27,9 @@ R | DuckDB | SQL | Quarto | ggplot2
 - `R/` — reusable functions
 - `analysis/` — Quarto notebooks
 - `outputs/figures/` — final plots
+
+## SQL exploration
+I wanted to sharpen my SQL skills by using DuckDB and SQL to query the data.
+2026-06-12 -
+Exclude days with <276 glucose readings as days with fewer readings (one hour of missing data) are incomplete and distort daily averages. 
+I decided this after I noticed there were a bunch of readings where only one reading was present through the entire day, and for this, essentially the variability of readings per day for that person becomes null.
