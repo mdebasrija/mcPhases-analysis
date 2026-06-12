@@ -22,7 +22,7 @@ SELECT * FROM read_csv_auto('data/raw/glucose.csv', all_varchar=true) LIMIT 10;
 SELECT id, COUNT(*) as readings
 FROM read_csv_auto('data/raw/glucose.csv')
 GROUP BY id
-ORDER BY readings DESC";
+ORDER BY readings DESC;
 
 --Hormones structure
 SELECT * FROM read_csv_auto('data/raw/hormones_and_selfreport.csv', all_varchar=true) LIMIT 10;
